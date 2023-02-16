@@ -1,0 +1,10 @@
+const ll = new DoubleLinkedList();
+ll.prepend(10);
+console.log(ll.isEmpty());
+ll.prepend(40);
+ll.prepend(50);
+ll.append(100);
+ll.print();
+ll.removeFormFront();
+ll.removeFromEnd();
+ll.print();
